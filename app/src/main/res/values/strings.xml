@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">FragmentIker2</string>
-    <string name="botonland">Soy un boton</string>
+    <string name="botonland">Camara!</string>
+    <string name="botonland2">Calculate!</string>
+    <string name="BotonCamara">Camara!</string>
+    <string name="BotonCalcular">Calculate!</string>
+    <string name="calculotext">aquí viene el cálculo</string>
+    <string name="botonComprobar">Comprobar</string>
 </resources>

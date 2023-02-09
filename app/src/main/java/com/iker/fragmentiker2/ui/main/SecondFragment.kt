@@ -1,18 +1,17 @@
 package com.iker.fragmentiker2.ui.main
 
-import android.content.res.Configuration
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.iker.fragmentiker2.R
 
-class MainFragment : Fragment() {
+class SecondFragment: Fragment() {
 
     companion object {
-        fun newInstance() = MainFragment()
+        fun newInstance() = SecondFragment()
     }
 
     private lateinit var viewModel: MainViewModel
@@ -23,11 +22,10 @@ class MainFragment : Fragment() {
     }
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View {
-
-        return inflater.inflate(R.layout.fragment_main, container, false)
+    ): View? {
+        return inflater.inflate(R.layout.fragment_second, container, false)
     }
-
 }
